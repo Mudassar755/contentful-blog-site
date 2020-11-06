@@ -1,7 +1,6 @@
 import React from "react"
 
-export default function Blog({ pageContext: { data } }) {
-  console.log("datata", data.content)
+export default function BlogPost({ pageContext: { data } }) {
   return <>
   <div>{data.title}</div>
 {/* <p>{data.}</p> */}
